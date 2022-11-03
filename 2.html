@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex 落</title>
+    <style>
+      body {
+        margin: 0;
+        height: 105vh;
+        background-color: rgb(238, 244, 244);
+      }
+      /* * {
+        border: 1px solid black;
+      }*/
+      .flex {
+        display: flex;
+      }
+      .baise {
+        background-color: rgb(221, 214, 238);
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .toubuqu {
+        background-color: rgb(235, 229, 222);
+      }
+      .mg8 {
+        margin: 5px;
+      }
+      .mgr8 {
+        margin-right: 5px;
+      }
+      .mgt8 {
+        margin-top: 5px;
+      }
+      .yinying {
+        box-shadow: rgb(6, 39, 39);
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <!-- 主区域 -->
+    <div class="flex1 flex column">
+      <!-- 上边框 -->
+      <div style="height: 30px" class="baise mg8">
+        <div style="padding: 3px; align-items: center; justify-content: center">
+          落叶知秋意
+        </div>
+      </div>
+      <!-- 头部区 -->
+      <div style="height: 300px" z-index: 1; class="toubuqu mg8"></div>
+      <!-- 内容区 -->
+      <div style="overflow: auto" class="flex1 flex">
+        <!-- 左区 -->
+        <div style="flex: 3" class="flex column">
+          <!-- 数据区 -->
+          <div class="flex">
+            <!-- 数据块 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块-->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块-->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+          </div>
+          <!-- 数据区2 -->
+          <div class="flex">
+            <!-- 数据块2 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块2 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块2 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块2 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+          </div>
+          <!-- 数据区3 -->
+          <div class="flex">
+            <!-- 数据块3 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块3 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块3 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块3 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+          </div>
+          <!-- 数据区3 -->
+          <div class="flex">
+            <!-- 数据块3 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块3 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块3 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+            <!-- 数据块3 -->
+            <div style="height: 85px" class="flex1 baise mgt8 mgr8 mg8"></div>
+          </div>
+        </div>
+        <!-- 右区 -->
+        <div style="flex: 2">
+          <a href="1.html">前往第一页</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
